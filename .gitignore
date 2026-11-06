@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+/dist/
+/build/
+
+# Thesis PDF - sledovane pre odovzdanie
+!thesis-template/dist/
+!thesis-template/dist/*.pdf
+
+# Virtualne prostredia
+.venv/
+venv/
+env/
+
+# Lokalne data, cache a velke vystupy
+data/PC-GITA/
+data/torch_cache/
+data/*.csv
+data/*.png
+data/*.xlsx
+data/*.pt
+data/**/*.pt
+data/pcgita_results/
+data/robust_results/
+logs/
+*.log
+main_run_for_analysis.log
+
+# Modely
+saved_models/
+
+# IDE a systemove subory
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Konfiguracia IDE (nie je sucast projektu)
+pyrightconfig.json
+.markdownlint.json
+.editorconfig
+
+# Cvicebne notebooky (nie su sucastou zadania 6)
+Cviki/
+
+# Thesis template - boilerplate subory ktore nie su sucastou nasej prace
+thesis-template/figures/tugboat.png
+thesis-template/appendices/latex.101.tex
+thesis-template/appendices/structure.tex
+thesis-template/appendices/user.manual.tex
+thesis-template/appendices/system.manual.tex
+thesis-template/chapters/00-preface.tex
+thesis-template/listings/
+thesis-template/changelog.md
+thesis-template/.gitlab-ci.yml
+make_presentation.py
+
+# Lokalne archivy
+thesis-template.zip

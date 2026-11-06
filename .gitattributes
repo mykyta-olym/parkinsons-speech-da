@@ -1,0 +1,23 @@
+# Handle line endings automatically for all files
+* text=auto
+
+# LaTeX files: store as LF
+*.tex text eol=lf
+*.bib text eol=lf
+*.cls text eol=lf
+*.sty text eol=lf
+*.py  text eol=lf
+*.ps1 text eol=lf
+*.sh  text eol=lf
+*.md  text eol=lf
+*.txt text eol=lf
+*.toml text eol=lf
+*.cfg text eol=lf
+*.csv text eol=lf
+
+# Binaries
+*.png binary
+*.pdf binary
+*.jpg binary
+*.otf binary
+*.ttf binary
